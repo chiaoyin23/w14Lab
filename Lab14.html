@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>W14Lab</title>
+</head>
+<body>
+<h3>Lab</h3>
+<p id="demo"></p>
+
+<script type="text/javascript">
+	var text = window.prompt("input data");
+	var input = window.prompt("input a char to search");
+	var result1 = text.indexOf(input);
+	var result2 = text.lastIndexOf(input);
+	var result3 = text.indexOf(input,3);
+	document.getElementById("demo").innerHTML = result1 + "<br>" + result2 +"<br>"+ result3;
+	
+</script>
+</body>
+</html>
